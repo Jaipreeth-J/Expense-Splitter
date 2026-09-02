@@ -4,6 +4,7 @@ import dotenv from 'dotenv';
 import { testConnection } from './config/db.js';
 import authRouter from './routes/auth.js';
 import groupsRouter from './routes/groups.js';
+import settlementsRouter from './routes/settlements.js';
 import { requireAuth } from './middleware/auth.js';
 
 dotenv.config();
@@ -23,10 +24,10 @@ app.get('/api/auth/me', requireAuth, (req, res) => {
 });
 
 app.use('/api/groups', groupsRouter);
+app.use('/api/settlements', settlementsRouter);
 
-// More routers will be mounted here as you build them out (Day 4+):
-// import expensesRouter from './routes/expenses.js';
-// app.use('/api/expenses', expensesRouter);
+// More routers will be mounted here as you build them out (Day 9+ is frontend):
+// import expensesRouter from './routes/expenses.js'; // PUT/DELETE /api/expenses/:id if you add it later
 
 const PORT = process.env.PORT || 4000;
 
