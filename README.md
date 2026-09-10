@@ -2,7 +2,7 @@
 
 A full-stack expense-splitting application (Splitwise-style) that lets groups track shared expenses, split them flexibly (equal, exact, or percentage-based), and settle up using a debt-simplification algorithm that minimizes the number of payments needed.
 
-> 🚧 **Status:** Actively in development — Days 1–9 of a 15-day build plan are complete (full backend + auth/routing frontend foundation). Frontend UI for groups, expenses, and balances (Days 10–13) is in progress.
+> ✅ **Status:** Completed — All 15 days of the build plan are complete (full backend, frontend UI, PDF export, testing, Tailwind UI polish, and deployment configuration).
 
 ---
 
@@ -249,13 +249,12 @@ Built to a strict 15-day, 2-hours/day schedule. Completed so far:
 - [x] Day 8 — Settlement APIs (record, history, balance adjustment)
 - [x] Day 9 — Frontend routing, auth pages, JWT context
 
-**Up next:**
-- [ ] Day 10 — Group creation/list/member UI
-- [ ] Day 11 — Expense form + list UI
-- [ ] Day 12 — Balances + simplified settlements UI
-- [ ] Day 13 — PDF settlement export
-- [ ] Day 14 — Integration testing, rounding/edge-case fixes
-- [ ] Day 15 — UI polish, deployment, final docs
+- [x] Day 10 — Group creation/list/member UI
+- [x] Day 11 — Expense form + list UI
+- [x] Day 12 — Balances + simplified settlements UI
+- [x] Day 13 — PDF settlement export
+- [x] Day 14 — Integration testing, rounding/edge-case fixes
+- [x] Day 15 — UI polish, deployment, final docs
 
 **Explicitly out of scope** (kept out to preserve the timeline — future work): multi-currency support, push notifications, OAuth login.
 
