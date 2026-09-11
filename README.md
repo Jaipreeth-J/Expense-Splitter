@@ -3,7 +3,7 @@
 **Expense Splitter** is a full-stack app that lets groups track shared expenses, split them flexibly (equal, exact, or percentage-based), and settle up using a debt-simplification algorithm that reduces a group's tangled debts into the minimum number of payments needed.
 
 **LIVE:** [https://expense-splitter-weld-eight.vercel.app/](https://expense-splitter-weld-eight.vercel.app/) <br>
-**API health check:** `https://<your-backend>.onrender.com/api/health` *(fill in your Render URL)*
+**API health check:** `https://expense-splitter-qr89.onrender.com/api/health`
 
 ---
 
